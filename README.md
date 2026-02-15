@@ -1,5 +1,4 @@
 LoRa Communication (ESP32 → Arduino UNO)
-
 This project demonstrates LoRa communication between:
 ESP32 (Transmitter)
 Arduino UNO (Receiver)
@@ -33,7 +32,6 @@ DIO0	2
 VCC	3.3V  
 GND	GND
 
-
 Frequency:
 Both transmitter and receiver use:
 433E6
@@ -41,4 +39,5 @@ Both transmitter and receiver use:
 How It Works:
 ESP32 sends lines of text one by one.
 UNO receives and prints each line.
+
 RSSI (signal strength) is displayed.
